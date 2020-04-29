@@ -79,7 +79,7 @@ console.log(":"+fileLocation);
 If you wish to use pipes to transfer very big files at constant speed using pipes reliably
 then uncomment the lines below and comment the line "res.download(fileLocation,y);" immediately after this.
 
-var speed = = {highWaterMark: Math.pow(2,23)}; //this is for 1 MegaBytes per second.
+var speed = {highWaterMark: Math.pow(2,23)}; //this is for 1 MegaBytes per second.
 var stream = fs.createReadStream(fileLocation,speed);
 res.attachment(y);
 stream.pipe(res);
