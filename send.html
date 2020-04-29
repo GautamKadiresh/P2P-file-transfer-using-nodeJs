@@ -25,17 +25,7 @@ and open the template in the editor.
 		a,h4{font-size: large;
                 padding: 10px;
                 height:40px;}
-
-
-		
-
-		
-		//div{text-align: center;}
 	</style>
-
-
-
-
 
     </head>
     <body>
@@ -47,9 +37,8 @@ and open the template in the editor.
  	 <input type="submit" value="Submit" >
 	<br>ex: E:\files\xyz.txt<br>For multiple files in one link please zip them and send as a single .zip file.
 	</form><br/>
-	<h6></h6>
-		<div id = x style="border: 1px solid blue margin-left: 01vw;" >
-			
+	    
+		<div id = x style="border: 1px solid blue margin-left: 01vw;" >			
 		</div>
 
 
@@ -61,14 +50,11 @@ function validateForm() {
     alert("Name must be filled out");
     return false;
   }
-
-var i;
-var k
+var i,k;
 for ( i=0;i< x.length; i++) {
   if (x[i]==='\\'){k=i}
 }
-var y =x.slice(k+1)
-
+var y =x.slice(k+1);
 j[y]=x;
 update();
 }
@@ -135,18 +121,9 @@ e.appendChild(div3);
 o.appendChild(e);
 
 }}
-
-
-
-
 };
-   	update();
+update();
 
 </script>
-
-
-
-
-
     </body>
 </html>
