@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <title>P2P File transfer using nodejs</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+          .split {
+  height: 80%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  bottom:0;
+  color: white;
+}
+
+.left {
+  left: 0;
+  background-color: #FF3366;
+}
+
+.right {
+  right: 0;
+  background-color: #2EC4B6;
+}
+.top{position: absolute;
+      top: 0px;
+      height: 20vh;
+  width: 100%;
+ color: white;
+    text-align:  center;background-color: #011627;
+   display: block; 
+   z-index: -1;
+}
+.centered {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+width: 30vw;
+
+  text-align: center;
+
+  
+}
+            
+        </style>
+    </head>
+    <body>
+        <div class="top" >
+            <h1>P2P File Transfer</h1>
+            <h3><%= ngrokurl %></h3>
+        </div>
+        <a href="send.html">
+            <div class= "split left ">
+                <div class="centered">
+                    <div class="centered" style=" border: 2px solid black;width: 200px ;min-height: 150px;">
+                        <h1 style="line-height: 100px;display: inline-block;">Send</h1> </div>               
+                    <h5>Create a link to share a file. The file can be downloaded by just going to the link in the browser from any device.</h5>   
+                </div>
+            </div>
+        </a>
+        <a href="request.html">
+            <div class= "split right ">
+                <div class="centered">
+                    <div class="centered" style=" border: 2px solid black;width: 200px ;min-height: 150px;">
+                        <h1 style="line-height: 100px;display: inline-block;">Request</h1> </div>               
+                    <h5>Create a link and share the link. The link can be used from any device through a browser to upload the file.</h5>   
+                </div>
+                
+            </div>
+        </a>
+    </body>
+</html>
