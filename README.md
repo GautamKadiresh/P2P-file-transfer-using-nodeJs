@@ -9,5 +9,4 @@ The node js packages used in this project are express, express-fileupload, ngrok
 optional:
 To use nodeJs pipes to transfer files at specified transfer rate. See the comment inside the run.js code.
 
-note:
-the request files page is under work.
+
