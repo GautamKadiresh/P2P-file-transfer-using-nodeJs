@@ -96,7 +96,7 @@ app.post('/upload/*',(req, res) => {
 	}
 });
 
-//all the html post request routes
+//all the html get request routes
 app.get('/favicon.ico',(req, res) => {res.end();});
 
 
