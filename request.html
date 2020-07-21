@@ -124,6 +124,7 @@ for (var key in j) {
         	var link = document.createElement("a");
   		link.innerHTML = "<%= ngrokurl %>/upload/"+key;
   		link.href="<%= ngrokurl %>/upload/"+key;
+		link.target="_blank";
 		link.style = "display: block; font-size: large;height:60px;" ;
    	
 
