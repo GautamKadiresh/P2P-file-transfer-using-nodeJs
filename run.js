@@ -194,7 +194,7 @@ app.get('/:file(*)',(req, res) => {
 //default port for website
 app.listen(80);
 
-//opn package used to open portal browser automatically
+//opn package used to open portal in browser automatically
 opn("localhost", {app: 'chrome'});
 }
 runngrok();
