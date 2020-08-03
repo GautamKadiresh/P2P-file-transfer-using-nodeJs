@@ -1,0 +1,16 @@
+{
+  "name": "p2pfiletransfer",
+  "version": "1.0.0",
+  "description": "Send and receive files using nodejs server",
+  "main": "run.js",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "ngrok": "^3.2.7",
+    "opn": "^6.0.0"
+  },
+  "devDependencies": {},
+  "author": "Gautam Kadiresh",
+  "license": "ISC"
+}
