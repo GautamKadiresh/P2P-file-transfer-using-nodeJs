@@ -4,7 +4,7 @@ One person runs a node js server by typing "npm start" in command prompt and use
 The link is shared with the other person the files must be shared with.
 The link can be opened using a browser in any device to download/upload the files.
 
-The node js packages used in this project are express, express-fileupload, ngrok and opn.Make sure to install them along with nodeJS with "npm install" command.
+The node js packages used in this project are express, express-fileupload, ngrok, ejs and opn.Make sure to install them along with nodeJS with "npm install" command.
 
 optional:
 To use nodeJs pipes to transfer files at specified transfer rate. See the comment inside the run.js code.
