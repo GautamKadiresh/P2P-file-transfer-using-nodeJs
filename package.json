@@ -11,6 +11,9 @@
     "opn": "^6.0.0"
   },
   "devDependencies": {},
+  "scripts": {
+    "start": "node run"
+  },
   "author": "Gautam Kadiresh",
   "license": "ISC"
 }
